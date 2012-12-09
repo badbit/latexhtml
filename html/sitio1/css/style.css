@@ -1,0 +1,129 @@
+/* CSS Document */
+
+body {
+	text-align:center;
+}
+
+h1 {
+	font-family:Verdana, Geneva, sans-serif;
+	text-align:center;
+}
+
+#contenedor	{
+	margin:0 auto;
+	margin-top:100px;
+	width:960px;
+	height:480px;
+	border:solid;
+	border-color:#000000;
+}
+
+#banner {
+	height:50px;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.menubar {
+	width:120px;
+	height:45px;
+	float:left;
+	border-right-color:#000000;
+	border-right-style:dotted;
+	background-color:#FF9933;
+	border-radius:10px;
+}
+#menubarfin {
+	width:455px;
+	height:45px;
+	float:left;
+	background-color:#FF9933;
+	border-radius:10px;
+}
+
+#contenido {
+	width:940px;
+	height:300px;
+	background-image:url(../imagenes/mint_orange.jpg);
+	background-repeat:no-repeat;
+	background-size:940px 290px;
+	margin-top:10px;
+	margin-left:10px;
+	z-index:1;
+	
+}
+#lema {
+	position:absolute;
+	top:260px;
+	left:750px;
+	width:300px;
+	height:280px;
+/*	background-color:#FFFFFF;*/
+	z-index:2;
+}
+#lemaweb {
+	color:#CCC;
+	text-align:justify;
+}
+
+a:link {
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-align:center;
+}
+a:visited {
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#FFFFFF;
+	text-decoration:none;
+	text-align:center;
+}
+a:hover {
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:bold;
+	color:#D3DAD3;
+	text-decoration:none;
+	text-align:center;
+}
+
+p {
+	text-align:center;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	font-style:italic;
+	font-weight:bold;
+	color:#FFFFFF;
+}
+#footertext{
+	text-align:right;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	color:#000000;
+}
+
+#formcontac{
+	position:absolute;
+	top:260px;
+	left:630px;
+	width:460px;
+	height:230px;
+	border-style:dashed;
+	border-color:#F90;
+	z-index:2;
+}
+
+#datos{
+	width:180px;
+	height:230px;
+	float:left;
+}
+#campos{
+	width:180px;
+	height:230px;
+	float:left;
+}
+.datos1{
+	text-align:left;
+}

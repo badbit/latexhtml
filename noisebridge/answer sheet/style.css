@@ -1,0 +1,73 @@
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: lightblue;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: red;
+}
+
+.header {
+  background-color: cyan;
+  padding: 20px;
+}
+
+.callout {
+  width: 100px;
+  border: 2px inset;
+  padding: 10px;
+}
+
+.first_callout {
+  float: left;
+}
+
+.second_callout {
+  float: right;
+}
+
+.header h1 {
+	text-align: center;
+}
+
+.content {
+  background-color: orange;
+}
+
+.sidebar, .main_content {
+  float: left;
+  padding: 10px;
+}
+
+.sidebar {
+  width: 180px;
+}
+
+.main_content {
+  background-color: white;
+  width: 580px;
+}
+
+.main_content figure {
+  float: right;
+}
+
+.main_content h3 {
+  clear: both;
+}
+
+table, th, td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+.sites a {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.clear {
+  clear: both;
+}

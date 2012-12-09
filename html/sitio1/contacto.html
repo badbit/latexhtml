@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Formulario de Contacto</title>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<div id="contenedor">
+    	<h1>Bienvenido al Taller de Dise&ntilde;o WEB</h1>
+      <div id="banner">
+        	<div class="menubar">
+                <br/>
+            	<a href="index.html">INICIO</a>
+            </div>
+            <div class="menubar">
+            	<br/>
+            	<a href="#">NOTICIAS</a>
+            </div>
+			<div class="menubar">
+            	<br/>
+            	<a href="#">ENLACES</a>
+            </div>
+			<div class="menubar">
+            	<br/>
+              	<a href="contacto.html">CONTACTO</a>
+        	</div>
+            <div id="menubarfin">
+            <p>Conoce sobre las nuevas tecnologias para el dise&ntilde;o WEB!</p>
+            </div>
+        </div>
+        <div id="contenido">        
+        </div>
+        <div id="formcontac">
+        	<form action="enviar_correo.php" method="post" name="contacto">
+            <div id="datos">
+            	<p class="datos1"><label>Nombre:</label>
+            	<br/>
+              	<br/>
+            	<label>EMail:</label>
+            	<br/>
+            	
+            	<label>Noticias Interes:</label>
+            	<br/>
+            	<br/>
+	            <label>Turno:</label>
+    	        <br/>
+            	<br/>        	    
+                <label>Comentarios:</label>
+                </p>
+            </div>
+            <div id="campos">
+            <p class="datos1">
+            <input name="nombre" type="text" size="30" />
+            <input name="email" type="text" size="30" />
+            
+            <br/>
+            <label>Tecnologia</label>
+            <input name="noticia1" type="checkbox" value="Tecnologia" />
+            <br/>
+            <label>Ciencia</label>
+            <input name="noticia2" type="checkbox" value="Ciencia" />
+            
+            <br/>
+            <label>Matutino:</label>
+            <input name="turno1" type="radio" value="Matutino" />
+            <label>Vespertino:</label>
+            <input name="turno1" type="radio" value="Vespertino" />
+            
+            <br/>
+            <textarea name="comentarios" cols="30" rows="3"></textarea>
+            <br/>
+            <input name="enviar" type="button" value="Enviar" />
+            </p>
+            </div>
+            </form>
+        </div>
+        <div id="footer">
+        <p id="footertext">
+        	Este sitio esta hecho con HTML4.0 y CSS2 :)
+        </p>
+        </div>
+        
+    </div>
+</body>
+</html>

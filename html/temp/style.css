@@ -1,0 +1,43 @@
+#fondo {
+    position:absolute;
+    width:100%;
+    top:0px;
+    left:0px;
+    height:100%;
+
+background: rgb(157,213,58); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(157,213,58,1) 0%, rgba(161,213,79,1) 36%, rgba(128,194,23,1) 80%, rgba(124,188,10,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(157,213,58,1)), color-stop(36%,rgba(161,213,79,1)), color-stop(80%,rgba(128,194,23,1)), color-stop(100%,rgba(124,188,10,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 36%,rgba(128,194,23,1) 80%,rgba(124,188,10,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 36%,rgba(128,194,23,1) 80%,rgba(124,188,10,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 36%,rgba(128,194,23,1) 80%,rgba(124,188,10,1) 100%); /* IE10+ */
+background: linear-gradient(left,  rgba(157,213,58,1) 0%,rgba(161,213,79,1) 36%,rgba(128,194,23,1) 80%,rgba(124,188,10,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=1 ); /* IE6-9 */
+
+}
+
+#encabezado {
+    position:absolute;
+    width:100%;
+    top:0px;
+    left:0px;
+    height:80px;
+    background-color:black;
+    color:white;
+    text-align:center;
+    
+    background-image:url(encabezado.jpg);
+    background-repeat:no-repeat;
+    background-position:bottom left;
+    
+}
+
+#contenido {
+    position:absolute;
+    width:80%;
+    top:90px;
+    left:10%;
+    padding-left:10px;
+    padding-right:10px;
+    background-color:white;
+}
